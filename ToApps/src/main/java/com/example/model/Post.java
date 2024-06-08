@@ -1,5 +1,7 @@
 package com.example.model;
 
+import org.hibernate.annotations.ColumnDefault;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -15,6 +17,7 @@ public class Post {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String title;
+    @ColumnDefault("4000")
     private String content;
     private String authorId;
 }

@@ -1,13 +1,14 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
+<%-- <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title></title>
+    <meta charset="UTF-8">
+    <title>Home</title>
 </head>
 <body>
-	<a href="/login">login</a>
-	<a href="/register">register</a>
+     <a href="/login" class="btn btn-primary mx-2">Login</a>
+     <a href="/register" class="btn btn-secondary mx-2">Register</a>
 </body>
 </html>
+ --%>

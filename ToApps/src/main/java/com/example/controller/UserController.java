@@ -16,11 +16,7 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-    @GetMapping("/")
-    public String home() {
-        return "home";
-    }
-    @GetMapping("/login")
+    @GetMapping("/")    
     public String loginForm() {
         return "login";
     }
@@ -37,7 +33,11 @@ public class UserController {
             return "login";
         }
     }
-
+    @GetMapping("/logout")
+    public String logout(HttpSession session) {
+            session.invalidate();
+        return "login";
+    }
     @GetMapping("/register")
     public String showRegistrationForm(Model model) {
         model.addAttribute("user", new User());

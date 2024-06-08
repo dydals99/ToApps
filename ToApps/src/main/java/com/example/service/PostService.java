@@ -3,6 +3,7 @@ package com.example.service;
 import com.example.model.Post;
 import com.example.repository.PostRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -12,8 +13,9 @@ public class PostService {
     @Autowired
     private PostRepository postRepository;
 
-    public List<Post> getAllPosts() {
-        return postRepository.findAll();
+    public List<Post> getAllPostsSortedById() {
+        List<Post> posts = postRepository.findAll(Sort.by(Sort.Direction.DESC, "id"));
+        return posts;
     }
 
     public Post getPostById(Long id) {
