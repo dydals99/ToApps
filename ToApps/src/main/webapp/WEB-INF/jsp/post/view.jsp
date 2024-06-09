@@ -87,10 +87,6 @@
         </form>
     </c:if>
 	<a href="/post/list" class="btn btn-secondary">Back to List</a>
-    <c:if test="${post.authorId == userId}">
-        <a href="/post/edit/${post.id}" class="btn btn-warning">Edit</a>
-        <a href="/post/delete/${post.id}" class="btn btn-danger">Delete</a>
-    </c:if>
 </div>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>

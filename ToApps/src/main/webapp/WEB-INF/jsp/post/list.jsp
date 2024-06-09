@@ -9,7 +9,7 @@
 </head>
 <body>
 <div class="container mt-5">
-    <h2 class="text-center mb-4">Post List</h2>
+    <h2 class="text-center mb-4">GPT Web Project</h2>
     <div class="list-group">
         <c:forEach var="post" items="${posts}">
             <div class="list-group-item mb-3">
