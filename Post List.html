@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)http://localhost:8080/post/list -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Post List</title>
+    <link href="./Post List_files/bootstrap.min.css" rel="stylesheet">
+</head>
+<body cz-shortcut-listen="true">
+<div class="container mt-5">
+    <h2 class="text-center mb-4">GPT Web Project</h2>
+    <div class="list-group">
+        
+            <div class="list-group-item mb-3">
+                <h3 class="mb-1">후기 및 각오</h3>
+                <p>프로젝트를 진행하면서 "어떤 질문을 해야 적은 시도로 내가 원하는 답에 다가갈 수 있을까?"를 고민하고 생각하면서 문제 해결 능력을 키울 수 있었습니다. 정말 간단하고 기본적인 웹 개발이지만, 그럼에도 제가 꾸준한 학습과 노력이 없었다면 어려웠을 것입니다.  저는 편리한 도구로서 AI 서비스를 이용하기 위해서는 개발 흐름을 이해하고, 새로운 개발 지식을 꾸준히 공부하는 것이 핵심이라고 생각 됐습니다.
+앞으로 꾸준히 발전하는 AI 기술에 잡아먹히는 것이 아닌 확실하게 사용할 수 있도록 더욱 정진 하고자 다짐했습니다.
+저는 블랜딩에 입사하여 앞서 다짐 한대로 학습하고, 실무에서 경험을 쌓으며 회사에 전력이 되고 싶습니다.
+감사합니다.  </p>
+                <p class="text-muted">작성자: yong</p>
+                <div class="d-flex justify-content-between">
+                    <a href="http://localhost:8080/post/view/12" class="btn btn-info btn-sm">상세보기</a>
+                    <div>
+                        
+                            <a href="http://localhost:8080/post/edit/12" class="btn btn-warning btn-sm">Edit</a>
+                            <a href="http://localhost:8080/post/delete/12" class="btn btn-danger btn-sm">Delete</a>
+                        
+                    </div>
+                </div>
+            </div>
+        
+            <div class="list-group-item mb-3">
+                <h3 class="mb-1">에러발생에 따른 문제해결 능력 </h3>
+                <p>그 후 구현된 코드를 살펴보니 설계구조에 대해서 먼저 알려주고있습니다. 
+코드를 살펴보며 많은 오류들과 직면 했습니다. 
+1.DB에 테이블명이 기존 예약어로 되어있던 것 입니다. "ORA-00903: 테이블명이 부적합합니다." 에러가 발생합니다. 수정된 코드를 다시 받아 정상적으로 구현했습니다. 
+2.@PathVariable 로 인한 에러가 발생했는데,  기존에는 Mapping 의 경로와 변수명이 같다면 name을 생략 가능한걸로 알았습니다.  하지만 스프링부트 3.2.X 버전부터는 자바 컴파일러에 parameters 옵션을 넣어주거나, 어노테이션에 이름을 생략하지 않고 다음과 같이 이름을 항상 적어줘야하는 것을 학습했습니다.
+이 외에도 다양한 에러와 직면했지만, 해결하기 위한 능력을 키울 수 있었습니다. gpt에게만 의존하는게 아니라 직접 문서들을 찾아보며 해결했습니다. </p>
+                <p class="text-muted">작성자: yong</p>
+                <div class="d-flex justify-content-between">
+                    <a href="http://localhost:8080/post/view/6" class="btn btn-info btn-sm">상세보기</a>
+                    <div>
+                        
+                            <a href="http://localhost:8080/post/edit/6" class="btn btn-warning btn-sm">Edit</a>
+                            <a href="http://localhost:8080/post/delete/6" class="btn btn-danger btn-sm">Delete</a>
+                        
+                    </div>
+                </div>
+            </div>
+        
+            <div class="list-group-item mb-3">
+                <h3 class="mb-1">첫 질문과 기획, 응답 검증</h3>
+                <p>프로젝트를 간단하게 기획했습니다. 어떤 툴을 이용할 것인지, 어떤 라이브러리를 사용할 것인지 간단하게 설명하고 부족한 의존성 주입이나, 필요한 기능들을 추가해달라고 질문 했습니다. 응답으로는 간단하게 프로젝트를 기획해주었고, 암호화를 하지말라고 요청했지만, 추가 기능에 security를 추가하였고 그것에 대해 피드백하고 응답 받았습니다. 최종적으로는 정상적으로 프로젝트를 기획할 수 있었습니다. 위에 경험으로 잘못된 답변(할루네이션)을 교차 검증하는 시간을 가졌습니다.</p>
+                <p class="text-muted">작성자: yong</p>
+                <div class="d-flex justify-content-between">
+                    <a href="http://localhost:8080/post/view/5" class="btn btn-info btn-sm">상세보기</a>
+                    <div>
+                        
+                            <a href="http://localhost:8080/post/edit/5" class="btn btn-warning btn-sm">Edit</a>
+                            <a href="http://localhost:8080/post/delete/5" class="btn btn-danger btn-sm">Delete</a>
+                        
+                    </div>
+                </div>
+            </div>
+        
+    </div>
+    <div class="text-center mt-4">
+        <a href="http://localhost:8080/post/create" class="btn btn-primary">Create New Post</a>
+        <a href="http://localhost:8080/logout" class="btn btn-secondary">LogOut</a>
+    </div>
+</div>
+<script src="./Post List_files/jquery-3.5.1.slim.min.js.다운로드"></script>
+<script src="./Post List_files/popper.min.js.다운로드"></script>
+<script src="./Post List_files/bootstrap.min.js.다운로드"></script>
+
+
+</body></html>
