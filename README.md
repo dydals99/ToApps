@@ -9,11 +9,13 @@
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
+<hr>
 <h3># 프로젝트 목표</h3>
 
 - 지원하고자 하는 회사인 "블랜딩"에서는 gpt를 활용하여 코드를 구현해서 빠르게 실행
 가능하게 작업하는 일이 주가 됩니다. 업무적인 부분에 대해 실습하는 프로젝트입니다. 
 
+<hr>
 <h3># 프로젝트 순서</h3>
 
 - gpt에게 간단하게 기획한 프로젝트를 자세하게 설명해주고, 부족한 기능이 있다면 
@@ -26,7 +28,7 @@
  새롭게 명령합니다.
 
  - 완성된 코드를 구현해서 실행하여 배포합니다. 
-
+<hr>
 <h3># gpt에게 질문 & 피드백</h3>
 
 <p>
@@ -49,7 +51,7 @@
 - 정상적으로 프로젝트를 기획했습니다. 구현 코드를 요청합니다.
   
 </p> 
-
+<hr>
 <p>
   <div class="form-group">
     <div style="height: 200px; width:100%;">
@@ -67,7 +69,7 @@
   
 - 이 외에도 다양한 에러와 직면했지만, 해결하기 위한 능력을 키울 수 있었습니다. 이때부터는 gpt에게만 질문하는게 아니라 직접 문서들을 찾아보며 해결했습니다.
 </p> 
-
+<hr>
 
 
  <h3># 프로젝트를 마치며</h3>
@@ -91,3 +93,10 @@
  저는 "블랜딩"에 입사하여 그런 역량들을 발휘하고 더욱 더 성
  장 시킬 수 있을 것이라고 자신합니다. 감사합니다.
  </p>
+ <hr>
+ <h3>#실행화면</h3>
+ aws를 통해 최종적으로 배포하고 프로젝트를 마무리하려고 했으나, 아직은 성공하지 못했습니다.<br>
+ 다양한 방법을 동원해봤지만 아직 문제점을 찾지 못하고 있습니다.<br> 
+ 아래의 실행화면 영상으로 대체합니다. 감사합니다.<br>
+ https://youtu.be/nc35uhcOeBc
+ <hr>
